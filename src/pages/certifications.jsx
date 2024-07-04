@@ -3,7 +3,7 @@ import '../styling/certifications.css';
 
 const certificationsData = [
   { id: 1, courseName: 'Introduction to Quantum Computing', certificateLink: 'http://example.com/cert1', completionDate: '2021-01-01', issuingOrganization: 'Udemy' },
-  { id: 2, courseName: 'Advanced CSS', certificateLink: 'http://example.com/cert2', completionDate: '2022-02-02', issuingOrganization: 'Udemy' },
+  { id: 2, courseName: 'Advanced CSS', certificateLink: 'https://www.udemy.com/certificate/UC-46fc113c-2139-4ce9-939e-0a9a2febb0fd/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com', completionDate: '2022-02-02', issuingOrganization: 'Udemy' },
   
 ];
 

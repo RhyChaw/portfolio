@@ -8,10 +8,15 @@ import UsePopcornImage from "../images/proj/UsePopcorn.png";
 import DASHImage from "../images/proj/DASH.png";
 import WATisZine from "../images/proj/WATisZine.png";
 import NexterImage from "../images/proj/Nexter.png";
-
-
+import CSGPTPRO from "../images/proj/csgptpro.png";
 
 const projectsData = [
+  {
+    title: 'CSGPTPRO Hackathon Project',
+    description: 'App built using Python, Streamlit and Arctic',
+    image: CSGPTPRO,
+    link: 'https://github.com/jadechoghari/CSGPTPRO'
+  },
   {
     title: 'DASH Project',
     description: 'NEXT JS application with JAVA Backend for Dropshippers',
