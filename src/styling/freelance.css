@@ -1,0 +1,65 @@
+.freelance-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #282c34;
+    color: #ffffff;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .header p {
+    margin: 10px 0 0;
+    font-size: 18px;
+  }
+  
+  .about, .skills, .projects, .contact {
+    padding: 20px;
+  }
+  
+  .about p, .contact p {
+    margin: 10px 0;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill-item {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .projects .project-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  
+  .contact a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }

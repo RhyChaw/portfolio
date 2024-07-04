@@ -1,20 +1,67 @@
-.navbar {
-    display: flex;
-    flex-direction: row;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
-    height: 10vh;
-    border-bottom: solid 2px white;
-    justify-content: space-between;
-    font-size: 3rem;
-    z-index: 1;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
 }
 
-.navbar a {
-    text-decoration: none;
-    display: inline-block;
-    height: 2vh;
-    color: white;
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
 
+.navbar {
+  position: relative;
+  text-align: center;
+}
+
+.navbar-center {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar-name {
+  font-size: 48px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.dropdown-bubble {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.dropdown-bubble:hover {
+  background-color: #555;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #444;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 999;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+  background-color: #999;
 }
