@@ -7,7 +7,7 @@ function Freelance() {
 
     <div className="freelance-container">
       <header className="header">
-        <h1>Rhythm Chawla</h1>
+        <h1>FREELANCE SERVICES</h1>
         <p>Full Stack Developer | React.js & Firebase Expert</p>
       </header>
       
