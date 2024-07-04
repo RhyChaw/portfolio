@@ -1,12 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import "../styling/navbar.css";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="navbar-container">
@@ -16,7 +30,7 @@ function Navbar() {
           <button className="dropdown-bubble" onClick={toggleDropdown}>☰</button>
         </div>
         {isOpen && (
-          <div className="dropdown-menu">
+          <div className="dropdown-menu" ref={dropdownRef}>
             <a href='/'>About me</a>
             <a href='/projects'>My Projects</a>
             <a href='/freelance'>Freelance Services</a>
