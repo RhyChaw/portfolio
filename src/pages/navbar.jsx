@@ -37,7 +37,7 @@ function Navbar() {
             <a href='/resume'>Resume</a>
             <a href='/certifications'>Certifications</a>
             <a href='/links'>Links</a>
-            <a href='/personal'>Personal</a>
+            {/* <a href='/personal'>Personal</a> */}
           </div>
         )}
       </div>
