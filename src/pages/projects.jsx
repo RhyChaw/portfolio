@@ -48,6 +48,12 @@ const projectsData = [
     link: 'https://github.com/RhyChaw/NaTours-Project'
   },
   {
+    title: 'REACT Quiz',
+    description: 'REACT Project for useReducer REACT HOOK',
+    image: UsePopcornImage,
+    link: 'https://github.com/RhyChaw/React-Quiz-project'
+  },
+  {
     title: 'Use Popcorn',
     description: 'A movie tracking REACT application using fetch APIs',
     image: UsePopcornImage,
