@@ -9,6 +9,7 @@ import DASHImage from "../images/proj/DASH.png";
 import WATisZine from "../images/proj/WATisZine.png";
 import NexterImage from "../images/proj/Nexter.png";
 import CSGPTPRO from "../images/proj/csgptpro.png";
+import ReactQuiz from "../images/proj/ReactQuiz.png";
 
 const projectsData = [
   {
@@ -49,8 +50,8 @@ const projectsData = [
   },
   {
     title: 'REACT Quiz',
-    description: 'REACT Project for useReducer REACT HOOK',
-    image: UsePopcornImage,
+    description: 'REACT Project for useReducer REACT Hook',
+    image: ReactQuiz,
     link: 'https://github.com/RhyChaw/React-Quiz-project'
   },
   {
