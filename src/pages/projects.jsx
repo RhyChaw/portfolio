@@ -10,6 +10,7 @@ import WATisZine from "../images/proj/WATisZine.png";
 import NexterImage from "../images/proj/Nexter.png";
 import CSGPTPRO from "../images/proj/csgptpro.png";
 import ReactQuiz from "../images/proj/ReactQuiz.png";
+import WorldWise from "../images/proj/Worldwise.png";
 
 const projectsData = [
   {
@@ -47,6 +48,12 @@ const projectsData = [
     description: 'A web tourist application built with Advanced CSS, and SASS',
     image: NatoursImage,
     link: 'https://github.com/RhyChaw/NaTours-Project'
+  },
+  {
+    title: 'World wise project',
+    description: 'REACT Project for context API, Routing with navigate, history and Auth',
+    image: WorldWise,
+    link: 'https://github.com/RhyChaw/worldwise-project'
   },
   {
     title: 'REACT Quiz',

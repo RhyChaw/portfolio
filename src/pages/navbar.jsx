@@ -6,7 +6,7 @@ function Navbar() {
   const dropdownRef = useRef(null);
 
   const toggleDropdown = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(!isOpen); 
   };
 
   const handleClickOutside = (event) => {
