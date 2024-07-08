@@ -11,6 +11,7 @@ import NexterImage from "../images/proj/Nexter.png";
 import CSGPTPRO from "../images/proj/csgptpro.png";
 import ReactQuiz from "../images/proj/ReactQuiz.png";
 import WorldWise from "../images/proj/Worldwise.png";
+import AtomicBlog from "../images/proj/AtomicBlog.png";
 
 const projectsData = [
   {
@@ -56,6 +57,12 @@ const projectsData = [
     link: 'https://github.com/RhyChaw/worldwise-project'
   },
   {
+    title: 'Atomic blog project',
+    description: 'REACT Project for learning context API and has Dark Mode :)',
+    image: AtomicBlog,
+    link: 'https://github.com/RhyChaw/atomic-blog-context-api-project'
+  },
+  {
     title: 'REACT Quiz',
     description: 'REACT Project for useReducer REACT Hook',
     image: ReactQuiz,
@@ -67,7 +74,6 @@ const projectsData = [
     image: UsePopcornImage,
     link: 'https://github.com/RhyChaw/07-UsePopcorn'
   },
-  // Add more projects as needed
 ];
 
 function Projects() {
@@ -98,3 +104,4 @@ function Projects() {
 }
 
 export default Projects;
+
