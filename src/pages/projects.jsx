@@ -5,7 +5,7 @@ import '../styling/projects.css';
 
 import projectsData from './projectData';
 
-const categories = ['All', 'REACT', 'AI', 'CSS'];
+const categories = ['All', 'Web Dev', 'AI', 'CSS'];
 
 function Projects() {
   const [selectedCategory, setSelectedCategory] = useState('All');
