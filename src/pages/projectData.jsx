@@ -16,9 +16,10 @@ import WorkoutTimer from "../images/proj/WorkoutTimer.png";
 import EatNSplit from "../images/proj/EatNSplit.png";
 import TravelList from "../images/proj/TravelList.png";
 import ClassyWeather from "../images/proj/ClassyWeather.png";
-
-
-
+import RocketLanding from "../images/proj/RocketLand.png";
+import PacmanPlayer from "../images/proj/PacmanPlayer.png";
+import KungFuMaster from "../images/proj/KungFuMaster.png";
+import DOCTORAI from "../images/proj/DoctorAI.png";
 
 const colors = {
   css: '#ff69b4',  // Pink
@@ -48,6 +49,38 @@ const projectsData = [
     description: 'App built using Python, Streamlit and Arctic',
     image: CSGPTPRO,
     link: 'https://github.com/jadechoghari/CSGPTPRO',
+    category: 'AI',
+    backgroundColor: colors.ai
+  },
+  {
+    title: 'Doctor AI Project',
+    description: 'Medically Fine-tuned LLM model built using Llama2(Meta) and trained on Hugging Face Data',
+    image: DOCTORAI,
+    link: 'https://colab.research.google.com/drive/1dJVq9tbPk0IwA3Tbpxvl0_9iZqKzXDaX',
+    category: 'AI',
+    backgroundColor: colors.ai
+  },
+  {
+    title: 'Kung Fu Master AI Project',
+    description: 'App built using Google Collab, Python and Gymnasium (A3C)',
+    image: KungFuMaster,
+    link: 'https://colab.research.google.com/drive/1anhsl9AGsTMMapq3tuhQBghW0d4fqHmS',
+    category: 'AI',
+    backgroundColor: colors.ai
+  },
+  {
+    title: 'PAC MAN Player AI Project',
+    description: 'App built using Google Collab, Python and Gymnasium (Deep Convolutional Q-learning)',
+    image: PacmanPlayer,
+    link: 'https://colab.research.google.com/drive/19ZZJCRdLLAJsJB3XVmCS6Kq315UKqAJa#scrollTo=cb9nVvU2Okhk',
+    category: 'AI',
+    backgroundColor: colors.ai
+  },
+  {
+    title: 'Rocket Landing AI Project',
+    description: 'App built using Google Collab, Python and Gymnasium (Deep Q learning)',
+    image: RocketLanding,
+    link: 'https://colab.research.google.com/drive/1SgdMlL2zM2HERCBJ5yhpVtbO7QtdDGMh',
     category: 'AI',
     backgroundColor: colors.ai
   },
