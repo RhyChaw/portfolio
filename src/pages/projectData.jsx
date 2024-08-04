@@ -20,6 +20,9 @@ import RocketLanding from "../images/proj/RocketLand.png";
 import PacmanPlayer from "../images/proj/PacmanPlayer.png";
 import KungFuMaster from "../images/proj/KungFuMaster.png";
 import DOCTORAI from "../images/proj/DoctorAI.png";
+import ReduxBank from "../images/proj/ReduxBank.png";
+import PizzaCompanyREACT from "../images/proj/PizzaCompanyREACT.png";
+
 
 const colors = {
   css: '#ff69b4',  // Pink
@@ -139,6 +142,22 @@ const projectsData = [
     link: 'https://github.com/RhyChaw/NaTours-Project',
     category: 'CSS',
     backgroundColor: colors.css
+  },
+  {
+    title: 'Demo Pizza Company Website Project',
+    description: 'REACT Project for Redux toolkit(RTK), API Fetching for menu, and multiple hooks, Along with Tailwind CSS styling.',
+    image: PizzaCompanyREACT,
+    link: 'https://github.com/RhyChaw/The-Complete-Pizza-shop-Project-',
+    category: 'Web Dev',
+    backgroundColor: colors.webDev
+  },
+  {
+    title: 'Redux Bank Project',
+    description: 'REACT Project for Classical Redux and Redux toolkit(RTK), Thunks, and reducer hooks',
+    image: ReduxBank,
+    link: 'https://github.com/RhyChaw/redux-practice',
+    category: 'Web Dev',
+    backgroundColor: colors.webDev
   },
   {
     title: 'World wise project',

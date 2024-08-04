@@ -1,7 +1,7 @@
 import React from 'react';
 import LANDING_PHOTO from '../images/landing.jpg';
 import '../styling/about.css';
-
+ 
 function About() {
   return (
     <div className="landing-container">
