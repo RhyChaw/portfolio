@@ -22,7 +22,7 @@ import KungFuMaster from "../images/proj/KungFuMaster.png";
 import DOCTORAI from "../images/proj/DoctorAI.png";
 import ReduxBank from "../images/proj/ReduxBank.png";
 import PizzaCompanyREACT from "../images/proj/PizzaCompanyREACT.png";
-
+import WildOasisProject from "../images/proj/TheWildOasis.png"
 
 const colors = {
   css: '#ff69b4',  // Pink
@@ -86,6 +86,14 @@ const projectsData = [
     link: 'https://colab.research.google.com/drive/1SgdMlL2zM2HERCBJ5yhpVtbO7QtdDGMh',
     category: 'AI',
     backgroundColor: colors.ai
+  },
+  {
+    title: 'The Wild Oasis Project',
+    description: 'Biggest Project using React Query, remote state, Dark mode, authentication, Statistic, styled components, Supabase backend',
+    image: WildOasisProject,
+    link: 'https://github.com/RhyChaw/The-wild-oasis-project',
+    category: 'Web Dev',
+    backgroundColor: colors.webDev
   },
   {
     title: 'VBOman Admin Panel (FreeLance)',
