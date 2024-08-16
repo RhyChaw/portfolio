@@ -23,6 +23,7 @@ import DOCTORAI from "../images/proj/DoctorAI.png";
 import ReduxBank from "../images/proj/ReduxBank.png";
 import PizzaCompanyREACT from "../images/proj/PizzaCompanyREACT.png";
 import WildOasisProject from "../images/proj/TheWildOasis.png"
+import WildOasisFronteND from "../images/proj/WildOasisFronteND.png";
 
 const colors = {
   css: '#ff69b4',  // Pink
@@ -87,8 +88,17 @@ const projectsData = [
     category: 'AI',
     backgroundColor: colors.ai
   },
+
   {
-    title: 'The Wild Oasis Project',
+    title: 'The Wild Oasis Project(Client)',
+    description: 'Frontend Using NEXT JS For the same applicaiton for a client to access',
+    image: WildOasisFronteND,
+    link: 'https://github.com/RhyChaw/ThEWildOasisClientWebsite',
+    category: 'Web Dev',
+    backgroundColor: colors.webDev
+  },
+  {
+    title: 'The Wild Oasis Project(Server)',
     description: 'Biggest Project using React Query, remote state, Dark mode, authentication, Statistic, styled components, Supabase backend',
     image: WildOasisProject,
     link: 'https://github.com/RhyChaw/The-wild-oasis-project',
